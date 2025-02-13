@@ -79,7 +79,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="my-4 text-2xl sm:text-3xl md:text-4xl text-center">
-            Will you be my Valentine?
+            Marketplace
           </h1>
           <div className="flex flex-col sm:flex-row items-center">
             <button
