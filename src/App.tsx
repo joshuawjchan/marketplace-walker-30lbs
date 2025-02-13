@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import img_1 from "./assets/image1.png";
 import img_2 from "./assets/image2.png";
 import img_3 from "./assets/image3.png";
-import img_4 from "./assets/image4.png";
+import img_4 from "./assets/image5.png";
 
 
 export default function Page() {
