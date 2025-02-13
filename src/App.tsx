@@ -60,7 +60,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" className="w-40 sm:w-60 md:w-80"/>
-          <p>Thank you for putting up with my BS :)</p> 
+          <p>Thank you sweet girl :&gt;</p> 
           <div className="my-4 text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           
             <TypeAnimation
