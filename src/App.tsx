@@ -19,15 +19,15 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      ":( Are you sure?",
-      "Pretty please, chicken feet?",
-      "PLEASE?",
-      "Say no and lose all ur gym progress.",
-      "Ur willing to lose all your gains than to press yes?",
-      "But cash will die if you say no..",
-      "??? You really would let cash die?",
-      "I might as well join cash in death",
-      "ok ur talking to rex's ghost",
+      "Please?",
+      "Pretty, pretty please?",
+      "What if I got you another Blahaj?",
+      "Are you sure? :<",
+      "There's no going back after this...",
+      "I'm telling your mom.",
+      "Telling Aaron now.",
+      "Almost as heartbreaking as when I left.",
+      "</3"
     ];
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
