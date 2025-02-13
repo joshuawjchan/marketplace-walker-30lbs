@@ -64,9 +64,9 @@ export default function Page() {
           <div className="my-4 text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           
             <TypeAnimation
-              sequence={["Yayyyy Valerie", 1000, "Yayyyy Valentine", 1000]}
+              sequence={["My lovely Valentine", 1000, "", 500, "My lovely Claire", 1000]}
               wrapper="span"
-              speed={1}
+              speed={50}
               style={{ display: "inline-block" }}
               repeat={Infinity}
             />
@@ -79,7 +79,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="my-4 text-2xl sm:text-3xl md:text-4xl text-center">
-            Will you be my Valentine on February 14, 2025?
+            Will you be my Valentine?
           </h1>
           <div className="flex flex-col sm:flex-row items-center">
             <button
