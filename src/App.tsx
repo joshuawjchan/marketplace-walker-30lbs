@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import img_1 from "./assets/img_1.jpg";
-import img_2 from "./assets/img_2.png";
-import img_3 from "./assets/img_3.png";
-import img_4 from "./assets/img_4.jpg";
+import img_1 from "./assets/image1.png";
+import img_2 from "./assets/image2.png";
+import img_3 from "./assets/image3.png";
+import img_4 from "./assets/image4.png";
 
 
 export default function Page() {
