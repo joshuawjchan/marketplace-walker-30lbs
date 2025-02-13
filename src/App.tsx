@@ -37,19 +37,19 @@ export default function Page() {
       {/* Background Images */}
       <img
         src={img_1}
-        className="pointer-events-none absolute w-32 sm:w-48 md:w-56 lg:w-64 opacity-30 top-20 left-10 transform rotate-[-20deg]"
+        className="pointer-events-none absolute w-40 sm:w-52 md:w-60 lg:w-72 opacity-30 top-10 left-5 transform rotate-[-20deg]"
       />
       <img
         src={img_2}
-        className="pointer-events-none absolute w-32 sm:w-48 md:w-56 lg:w-64 opacity-30 top-20 right-20 transform rotate-[15deg]"
-      />
-      <img
-        src={img_3}
-        className="pointer-events-none absolute w-32 sm:w-48 md:w-56 lg:w-64 opacity-30 bottom-10 left-20 transform rotate-[-25deg]"
+        className="pointer-events-none absolute w-40 sm:w-52 md:w-60 lg:w-72 opacity-30 top-28 right-10 transform rotate-[15deg]"
       />
       <img
         src={img_4}
-        className="pointer-events-none absolute w-32 sm:w-48 md:w-56 lg:w-64 opacity-30 bottom-10 right-20 transform rotate-[20deg]"
+        className="pointer-events-none absolute w-40 sm:w-52 md:w-60 lg:w-72 opacity-30 bottom-16 left-8 transform rotate-[-25deg]"
+      />
+      <img
+        src={img_3}
+        className="pointer-events-none absolute w-40 sm:w-52 md:w-60 lg:w-72 opacity-30 bottom-5 right-16 transform rotate-[20deg]"
       />
 
        {/* <imga
@@ -64,7 +64,7 @@ export default function Page() {
           <div className="my-4 text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           
             <TypeAnimation
-              sequence={["My lovely Valentine", 1000, "", 500, "My lovely Claire", 1000]}
+              sequence={["My lovely Valentine", 1000, "My lovely", 500, "My lovely Claire", 2000]}
               wrapper="span"
               speed={50}
               style={{ display: "inline-block" }}
